@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48463fe9-5ed4-4461-87ad-c66f7de9e43e" name="Changes" comment="" />
+    <list default="true" id="48463fe9-5ed4-4461-87ad-c66f7de9e43e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "add/db",
+    "git-widget-placeholder": "add/securityJWT",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "Z:/LiberKey/MyApps/laragon/www/java_instant_sophro/java_instant_sophro/src/main/resources"

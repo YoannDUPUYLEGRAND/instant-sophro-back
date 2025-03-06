@@ -1,0 +1,35 @@
+@startuml UseCase
+actor "GUEST" as Guest
+actor "USER" as User
+actor "MANAGER" as Manager
+actor "ADMIN" as Admin
+
+rectangle ECommerce {
+    usecase "Register" as UC_Register
+    usecase "Login" as UC_Login
+    usecase "Logout" as UC_Logout
+    usecase "CRUD Utilisateur" as UC_UserCRUD
+    usecase "CRUD Produit" as UC_ProductCRUD
+    usecase "Passer commande" as UC_CreateOrder
+    usecase "Gérer commandes" as UC_ManageOrders
+}
+
+Guest -- UC_Register
+Guest -- UC_Login
+Guest -- UC_Logout
+Guest -- UC_ProductCRUD : (lecture)
+Guest -- UC_CreateOrder
+
+User -- UC_Login
+User -- UC_Logout
+User -- UC_ProductCRUD : (lecture)
+User -- UC_CreateOrder
+
+Manager -- UC_ProductCRUD : (CRUD)
+Manager -- UC_ManageOrders
+Manager -- UC_UserCRUD : (lecture)
+
+Admin -- UC_UserCRUD : (CRUD)
+Admin -- UC_ProductCRUD : (CRUD)
+Admin -- UC_ManageOrders
+@enduml
