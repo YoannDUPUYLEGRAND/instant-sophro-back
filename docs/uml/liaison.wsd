@@ -1,0 +1,24 @@
+@startuml
+entity reservation_service {
+  - reservation_id : int
+  - service_id : int
+}
+
+entity client_service {
+  - client_id : int
+  - service_id : int
+  - service_date : datetime
+}
+
+entity payment_reservation {
+  - payment_id : int
+  - reservation_id : int
+}
+
+entity client_subscription {
+  - client_id : int
+  - subscription_id : int
+  - start_date : datetime
+  - end_date : datetime
+}
+@enduml

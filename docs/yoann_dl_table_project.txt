@@ -1,0 +1,101 @@
+TABLES PRINCIPALES :
+
+1. articles - Blog et actualités du site
+2. utilisateurs - Gestion des administrateurs et clients
+3. roles - Définition des rôles (admin, client, praticien)
+4. services - Liste des prestations proposées
+5. creneaux - Disponibilités et horaires
+6. reservations - Rendez-vous programmés
+7. clients - Informations des clients
+8. paiements - Transactions et factures
+9. temoignages - Avis et retours clients
+10. pages - Pages fixes (accueil, contact, mentions légales...)
+11. medias - Photos et documents
+12. tarifs - Grille tarifaire des prestations
+13. categories - Classement des contenus
+14. notifications - Système de rappels
+15. produits - Boutique en ligne (optionnel)
+
+TABLES DE LIAISON :
+
+1. reservation_service - Association réservation/prestation
+2. client_service - Historique prestations par client
+3. paiement_reservation - Suivi paiements par réservation
+4. client_abonnement - Gestion des forfaits/packs
+
+Sections principales du site :
+
+La Sophrologie
+- Présentation
+- Méthode
+- Bienfaits
+- Parcours professionnel
+- Déontologie
+
+Prestations
+- Séances individuelles
+- Séances groupe
+- Ateliers thématiques
+- Formations
+- Tarifs
+
+Réservation
+- Calendrier disponibilités 
+- Choix prestations
+- Système paiement
+- Confirmation
+- Mon compte
+
+Blog/Ressources
+- Articles
+- Conseils
+- Exercices
+- Témoignages
+- Newsletter
+
+Informations Pratiques
+- Contact
+- Accès
+- FAQ
+- Mentions légales
+- CGV
+
+Fonctionnalités essentielles :
+- Réservation en ligne
+- Paiement sécurisé
+- Espace client
+- Publication articles
+- Formulaire contact
+- Calendrier interactif
+- Rappels automatiques
+- Factures automatiques
+
+Points importants :
+- Design professionnel apaisant
+- Navigation intuitive
+- Responsive design
+- Sécurité données/paiements
+- RGPD
+- Performance
+- SEO optimisé
+- Support technique
+
+Objectifs du site :
+- Attirer nouveaux clients
+- Faciliter réservations
+- Automatiser gestion
+- Informer/rassurer
+- Partager expertise
+- Fidéliser clients
+- Développer activité
+- Simplifier administration
+
+Le site doit être :
+- Sécurisé
+- Professionnel
+- Intuitif
+- Fiable
+- Rapide
+- Évolutif
+- Bien référencé
+- Conforme RGPD
