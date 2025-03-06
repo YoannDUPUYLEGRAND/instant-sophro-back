@@ -1,0 +1,116 @@
+@startuml
+entity articles {
+  - id : int
+  --
+  - title : string
+  - content : text
+  - publication_date : datetime
+}
+
+entity users {
+  - id : int
+  --
+  - name : string
+  - email : string
+  - password : string
+  - role_id : int
+}
+
+entity roles {
+  - id : int
+  --
+  - name : string
+}
+
+entity services {
+  - id : int
+  --
+  - name : string
+  - description : text
+  - tariff_id : int
+}
+
+entity slots {
+  - id : int
+  --
+  - service_id : int
+  - date : datetime
+  - start_time : time
+  - end_time : time
+}
+
+entity reservations {
+  - id : int
+  --
+  - client_id : int
+  - slot_id : int
+  - reservation_date : datetime
+}
+
+entity clients {
+  - id : int
+  --
+  - name : string
+  - email : string
+  - phone : string
+}
+
+entity payments {
+  - id : int
+  --
+  - reservation_id : int
+  - amount : decimal
+  - payment_date : datetime
+}
+
+entity testimonials {
+  - id : int
+  --
+  - client_id : int
+  - content : text
+  - publication_date : datetime
+}
+
+entity pages {
+  - id : int
+  --
+  - title : string
+  - content : text
+}
+
+entity media {
+  - id : int
+  --
+  - url : string
+  - type : string
+}
+
+entity tariffs {
+  - id : int
+  --
+  - name : string
+  - amount : decimal
+}
+
+entity categories {
+  - id : int
+  --
+  - name : string
+}
+
+entity notifications {
+  - id : int
+  --
+  - client_id : int
+  - message : text
+  - send_date : datetime
+}
+
+entity products {
+  - id : int
+  --
+  - name : string
+  - description : text
+  - price : decimal
+}
+@enduml
