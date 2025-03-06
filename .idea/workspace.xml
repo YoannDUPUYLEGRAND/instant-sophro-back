@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48463fe9-5ed4-4461-87ad-c66f7de9e43e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/db/Looping1.lo1" beforeDir="false" afterPath="$PROJECT_DIR$/docs/db/Looping1.lo1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/db/Looping1.loo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/db/Looping1.loo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_instant_sophro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Models/Product.java" afterDir="false" />
-    </list>
+    <list default="true" id="48463fe9-5ed4-4461-87ad-c66f7de9e43e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,19 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.JavaInstantSophroApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dev.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Z:/LiberKey/MyApps/laragon/www/java_instant_sophro/java_instant_sophro/src/main/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.JavaInstantSophroApplication.executor": "Run",
+    "Application.dev.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "add/db",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "Z:/LiberKey/MyApps/laragon/www/java_instant_sophro/java_instant_sophro/src/main/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\LiberKey\MyApps\laragon\www\java_instant_sophro\java_instant_sophro\src\main\resources" />
