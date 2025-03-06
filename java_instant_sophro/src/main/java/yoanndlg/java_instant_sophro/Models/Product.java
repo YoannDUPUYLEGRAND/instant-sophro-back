@@ -16,7 +16,7 @@ import java.util.Set;
  * The type Product.
  */
 @Entity
-@Table(name = "products")
+@Table(name = "tproducts")
 public class Product {
     @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -33,13 +33,13 @@ public class Product {
     private Duration duration;
 
     @ElementCollection(targetClass = CategoryType.class)
-    @CollectionTable(name = "categories", joinColumns = @JoinColumn(name = "id_product"))
+    @CollectionTable(name = "tcategories", joinColumns = @JoinColumn(name = "id_product"))
     @Enumerated(EnumType.STRING)
     @Column(name = "type")
     private Set<CategoryType> categories = new HashSet<>();
 
     @ElementCollection(targetClass = ProductModality.class)
-    @CollectionTable(name = "modalities", joinColumns = @JoinColumn(name = "id_product"))
+    @CollectionTable(name = "tmodalities", joinColumns = @JoinColumn(name = "id_product"))
     @Enumerated(EnumType.STRING)
     @Column(name = "modality")
     private Set<ProductModality> modalities = new HashSet<>();
