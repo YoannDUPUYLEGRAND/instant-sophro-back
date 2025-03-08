@@ -1,6 +1,5 @@
 package yoanndlg.java_instant_sophro.Models;
 
-
 import jakarta.persistence.*;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
@@ -8,9 +7,6 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-/**
- * The type User.
- */
 @Entity
 @Table(name = "tusers")
 public class User {
@@ -35,31 +31,21 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<Order> orders = new HashSet<>();
 
-    /**
-     * EncoderPassword.
-     *
-     * @param password the password
-     */
-    public void setPassword(String password) {
-        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-        this.password = passwordEncoder.encode(password);
-    }
+    public User() {}
 
-    /**
-     * Instantiates a new User.
-     *
-     * @param username the username
-     * @param surname  the surname
-     * @param email    the email
-     * @param password the password
-     * @param orders   the orders
-     */
-    public User(String username, String surname, String email, String password, Set<Order> orders) {
+    public User(String username, String email, String password,Set<Order> orders) {
         this.username = username;
-        this.surname = surname;
         this.email = email;
         this.password = password;
         this.orders = orders;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPassword() {
+        return password;
     }
 
     @Override
