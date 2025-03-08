@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48463fe9-5ed4-4461-87ad-c66f7de9e43e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/instant-sophro-back.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Contracts/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/DTOs/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/DTOs/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Exceptions/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Exceptions/ProductException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/UserDetailsServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Utils/ProductUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/JwtRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/JwtRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,10 +61,11 @@
   "keyToString": {
     "Application.JavaInstantSophroApplication.executor": "Run",
     "Application.dev.executor": "Run",
+    "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "add/securityJWT",
+    "git-widget-placeholder": "feature/product-mvc",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "Z:/LiberKey/MyApps/laragon/www/java_instant_sophro/java_instant_sophro/src/main/resources"
