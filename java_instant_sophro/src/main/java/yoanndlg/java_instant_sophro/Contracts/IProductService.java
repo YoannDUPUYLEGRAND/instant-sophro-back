@@ -1,8 +1,11 @@
 package yoanndlg.java_instant_sophro.Contracts;
 
 import yoanndlg.java_instant_sophro.DTOs.ProductDTO;
+import yoanndlg.java_instant_sophro.Enum.CategoryType;
+import yoanndlg.java_instant_sophro.Enum.ProductModality;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * The interface Product service.
@@ -57,5 +60,27 @@ public interface IProductService {
     void deleteProduct(Long id);
 
 
+    /**
+     * Delete many products.
+     *
+     * @param ids the ids
+     */
     void deleteManyProducts(List<Long>ids);
+
+
+    /**
+     * Gets products by category.
+     *
+     * @param categories the categories
+     * @return the products by category
+     */
+    List<ProductDTO> getProductsByCategory(Set<CategoryType> categories);
+
+    /**
+     * Gets products by modalities.
+     *
+     * @param modalities the modalities
+     * @return the products by modalities
+     */
+    List<ProductDTO> getProductsByModalities(Set<ProductModality> modalities);
 }

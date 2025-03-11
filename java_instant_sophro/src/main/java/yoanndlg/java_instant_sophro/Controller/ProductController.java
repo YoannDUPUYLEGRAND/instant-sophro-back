@@ -9,10 +9,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import yoanndlg.java_instant_sophro.DTOs.ProductDTO;
+import yoanndlg.java_instant_sophro.Enum.CategoryType;
+import yoanndlg.java_instant_sophro.Enum.ProductModality;
 import yoanndlg.java_instant_sophro.Repository.ProductRepository;
 import yoanndlg.java_instant_sophro.Service.ProductServiceImpl;
 
 import java.util.List;
+import java.util.Set;
 
 
 /**
@@ -97,6 +100,12 @@ public class ProductController {
         return ResponseEntity.ok(updatedProduct);
     }
 
+    /**
+     * Delete product response entity.
+     *
+     * @param id the id
+     * @return the response entity
+     */
     @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteProduct(@PathVariable Long id){
         productService.deleteProduct(id);
@@ -104,9 +113,29 @@ public class ProductController {
     }
 
 
+    /**
+     * Delete many products response entity.
+     *
+     * @param ids the ids
+     * @return the response entity
+     */
     @DeleteMapping
     public ResponseEntity<String> deleteManyProducts(@RequestBody List<Long> ids){
         productService.deleteManyProducts(ids);
         return new ResponseEntity<>("Produits supprimés avec succès",HttpStatus.NO_CONTENT);
+    }
+
+
+
+    @GetMapping("/by-categories")
+    public ResponseEntity<List<ProductDTO>> getProductsByCategories(@RequestParam Set<CategoryType> categories) {
+        List<ProductDTO> products = productService.getProductsByCategory(categories);
+        return ResponseEntity.ok(products);
+    }
+
+    @GetMapping("/by-modalities")
+    public ResponseEntity<List<ProductDTO>> getProductsByModalities(@RequestParam Set<ProductModality> modalities) {
+        List<ProductDTO> products = productService.getProductsByModalities(modalities);
+        return ResponseEntity.ok(products);
     }
 }
