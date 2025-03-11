@@ -56,4 +56,6 @@ public interface IProductService {
      */
     void deleteProduct(Long id);
 
+
+    void deleteManyProducts(List<Long>ids);
 }

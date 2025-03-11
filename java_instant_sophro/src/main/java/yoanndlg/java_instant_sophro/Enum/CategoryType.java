@@ -37,6 +37,26 @@ public enum CategoryType {
     /**
      * The Other.
      */
-    OTHER
+    OTHER,
+
+    /**
+     * The Yoga.
+     */
+    YOGA,
+
+
+
+    /**
+     * The Respiration.
+     */
+    RESPIRATION,
+
+
+    /**
+     * The Emotions.
+     */
+    EMOTIONS,
+
+    MUSIQUE
 
 }
