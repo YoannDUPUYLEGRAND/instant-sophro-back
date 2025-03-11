@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48463fe9-5ed4-4461-87ad-c66f7de9e43e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/product.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Utils/DurationConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Contracts/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Contracts/IProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/DTOs/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/DTOs/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Enum/CategoryType.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Enum/CategoryType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Models/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Utils/ProductUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_instant_sophro/src/main/java/yoanndlg/java_instant_sophro/Utils/ProductUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.JavaInstantSophroApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dev.executor&quot;: &quot;Run&quot;,
-    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/product-mvc&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Z:/LiberKey/MyApps/laragon/www/java_instant_sophro/java_instant_sophro/src/main/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.JavaInstantSophroApplication.executor": "Run",
+    "Application.dev.executor": "Run",
+    "OverrideImplement.generate.javadoc": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/trie-Product",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "Z:/LiberKey/MyApps/laragon/www/java_instant_sophro/java_instant_sophro/src/main/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\LiberKey\MyApps\laragon\www\java_instant_sophro\java_instant_sophro\src\main\resources" />
