@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Yoga enfant",
+    "description": "Séance de yoga pour enfant de 5 à 10 ans",
+    "durationInMinutes": 30,
+    "categories": ["MEDITATION", "YOGA"],
+    "modalities": ["VISIO_INDIVIDUEL", "PRESENTIEL_GROUPE", "VISIO_GROUPE"]
+  },
+  {
+    "name": "Relaxation ludique",
+    "description": "Atelier de relaxation pour enfants avec des jeux",
+    "durationInMinutes": 45,
+    "categories": ["MEDITATION", "RELAXATION"],
+    "modalities": ["VISIO_GROUPE", "PRESENTIEL_INDIVIDUEL", "PRESENTIEL_GROUPE"]
+  },
+  {
+    "name": "Respiration consciente",
+    "description": "Apprentissage des techniques de respiration pour enfants",
+    "durationInMinutes": 20,
+    "categories": ["MEDITATION", "RESPIRATION"],
+    "modalities": ["VISIO_INDIVIDUEL", "PRESENTIEL_INDIVIDUEL", "VISIO_GROUPE", "PRESENTIEL_GROUPE"]
+  },
+  {
+    "name": "Initiation à la pleine conscience",
+    "description": "Découverte de la pleine conscience pour les enfants",
+    "durationInMinutes": 25,
+    "categories": ["MEDITATION"],
+    "modalities": ["PRESENTIEL_GROUPE", "VISIO_INDIVIDUEL"]
+  },
+  {
+    "name": "Atelier calme et concentration",
+    "description": "Techniques pour aider les enfants à se concentrer",
+    "durationInMinutes": 40,
+    "categories": ["MEDITATION", "CONCENTRATION"],
+    "modalities": ["VISIO_GROUPE", "PRESENTIEL_INDIVIDUEL"]
+  },
+  {
+    "name": "Gestion des émotions",
+    "description": "Aider les enfants à comprendre et gérer leurs émotions",
+    "durationInMinutes": 35,
+    "categories": ["MEDITATION", "EMOTIONS"],
+    "modalities": ["PRESENTIEL_INDIVIDUEL", "VISIO_INDIVIDUEL", "VISIO_GROUPE"]
+  },
+  {
+    "name": "Pause zen enfantine",
+    "description": "Moment de relaxation et méditation pour les enfants",
+    "durationInMinutes": 30,
+    "categories": ["MEDITATION"],
+    "modalities": ["VISIO_GROUPE", "PRESENTIEL_GROUPE"]
+  },
+  {
+    "name": "Méditation guidée pour petits explorateurs",
+    "description": "Séance de méditation avec des histoires imaginaires adaptées aux enfants",
+    "durationInMinutes": 50,
+    "categories": ["MEDITATION"],
+    "modalities": ["VISIO_INDIVIDUEL", "PRESENTIEL_INDIVIDUEL", "VISIO_GROUPE", "PRESENTIEL_GROUPE"]
+  },
+  {
+    "name": "Relaxation musicale",
+    "description": "Relaxation accompagnée de musique douce pour les enfants",
+    "durationInMinutes": 45,
+    "categories": ["MEDITATION", "MUSIQUE"],
+    "modalities": ["PRESENTIEL_GROUPE", "VISIO_INDIVIDUEL"]
+  },
+  {
+    "name": "Yoga en famille",
+    "description": "Séance de yoga pour les familles avec enfants",
+    "durationInMinutes": 60,
+    "categories": ["MEDITATION", "YOGA"],
+    "modalities": ["PRESENTIEL_GROUPE", "VISIO_GROUPE"]
+  },
+  {
+    "name": "Méditation active",
+    "description": "Méditation dynamique pour les enfants",
+    "durationInMinutes": 40,
+    "categories": ["MEDITATION"],
+    "modalities": ["VISIO_INDIVIDUEL", "PRESENTIEL_INDIVIDUEL", "PRESENTIEL_GROUPE"]
+  },
+  {
+    "name": "Atelier de respiration profonde",
+    "description": "Apprentissage de la respiration profonde pour les enfants",
+    "durationInMinutes": 25,
+    "categories": ["MEDITATION", "RESPIRATION"],
+    "modalities": ["VISIO_GROUPE", "PRESENTIEL_INDIVIDUEL"]
+  },
+  {
+    "name": "Pause détente",
+    "description": "Moment de détente et relaxation pour les enfants",
+    "durationInMinutes": 30,
+    "categories": ["MEDITATION"],
+    "modalities": ["PRESENTIEL_INDIVIDUEL", "VISIO_INDIVIDUEL", "PRESENTIEL_GROUPE"]
+  },
+  {
+    "name": "Méditation et mouvement",
+    "description": "Séance combinant méditation et mouvement pour les enfants",
+    "durationInMinutes": 50,
+    "categories": ["MEDITATION"],
+    "modalities": ["VISIO_GROUPE", "PRESENTIEL_GROUPE", "VISIO_INDIVIDUEL"]
+  },
+  {
+    "name": "Concentration et calme",
+    "description": "Techniques pour améliorer la concentration chez les enfants",
+    "durationInMinutes": 40,
+    "categories": ["MEDITATION", "CONCENTRATION"],
+    "modalities": ["VISIO_INDIVIDUEL", "PRESENTIEL_GROUPE", "PRESENTIEL_INDIVIDUEL"]
+  },
+  {
+    "name": "Gestion du stress",
+    "description": "Aider les enfants à gérer le stress",
+    "durationInMinutes": 35,
+    "categories": ["MEDITATION", "STRESS"],
+    "modalities": ["PRESENTIEL_INDIVIDUEL", "VISIO_GROUPE", "VISIO_INDIVIDUEL"]
+  },
+  {
+    "name": "Méditation créative",
+    "description": "Séance de méditation avec des activités créatives pour les enfants",
+    "durationInMinutes": 45,
+    "categories": ["MEDITATION"],
+    "modalities": ["VISIO_INDIVIDUEL", "PRESENTIEL_GROUPE", "PRESENTIEL_INDIVIDUEL"]
+  },
+  {
+    "name": "Respiration et bien-être",
+    "description": "Apprentissage des techniques de respiration pour le bien-être des enfants",
+    "durationInMinutes": 25,
+    "categories": ["MEDITATION", "RESPIRATION"],
+    "modalities": ["VISIO_GROUPE", "PRESENTIEL_GROUPE", "VISIO_INDIVIDUEL"]
+  },
+  {
+    "name": "Pause zen en famille",
+    "description": "Moment de relaxation en famille",
+    "durationInMinutes": 30,
+    "categories": ["MEDITATION"],
+    "modalities": ["PRESENTIEL_GROUPE", "VISIO_GROUPE"]
+  },
+  {
+    "name": "Méditation et nature",
+    "description": "Séance de méditation en lien avec la nature pour les enfants",
+    "durationInMinutes": 50,
+    "categories": ["MEDITATION"],
+    "modalities": ["PRESENTIEL_GROUPE", "VISIO_INDIVIDUEL", "PRESENTIEL_INDIVIDUEL"]
+  }
+]

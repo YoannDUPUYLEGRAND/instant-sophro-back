@@ -14,7 +14,7 @@ public class ProductUtils {
         ProductDTO temp = new ProductDTO(
                 entity.getName(),
                 entity.getDescription(),
-                entity.getDuration(),
+                entity.getDurationInMinutes(),
                 entity.getCategories(),
                 entity.getModalities()
         );
@@ -31,7 +31,7 @@ public class ProductUtils {
         Product temp = new Product(
                 dto.getName(),
                 dto.getDescription(),
-                dto.getDuration(),
+                dto.getDurationInMinutes(),
                 dto.getCategories(),
                 dto.getModalities()
         );

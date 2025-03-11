@@ -1,34 +1,112 @@
 package yoanndlg.java_instant_sophro.Controller;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import yoanndlg.java_instant_sophro.DTOs.ProductDTO;
 import yoanndlg.java_instant_sophro.Repository.ProductRepository;
 import yoanndlg.java_instant_sophro.Service.ProductServiceImpl;
 
+import java.util.List;
 
 
+/**
+ * The type Product controller.
+ */
+//TODO Add @CrossOrigin(origins = "http://localhost:5173/")
 @RestController
 @RequestMapping("/api/products")
 public class ProductController {
 
+    private static final Logger logger = LoggerFactory.getLogger(ProductController.class);
+
     @Autowired
     private ProductServiceImpl productService;
 
+    /**
+     * The Product repository.
+     */
     @Autowired
     ProductRepository productRepository;
 
 
+    /**
+     * Create product response entity.
+     *
+     * @param productDTO the product dto
+     * @return the response entity
+     */
     @PostMapping
     public ResponseEntity<ProductDTO> createProduct (@Validated @RequestBody ProductDTO productDTO){
         ProductDTO createdProduct = productService.createProduct(productDTO);
         return new ResponseEntity<>(createdProduct, HttpStatus.CREATED);
+    }
+
+
+    /**
+     * Create all products response entity.
+     *
+     * @param productDTOs the product dt os
+     * @return the response entity
+     */
+    @PostMapping("/all")
+    public ResponseEntity<List<ProductDTO>> createAllProducts(@Validated @RequestBody List<ProductDTO> productDTOs) {
+        List<ProductDTO> createdProducts = productService.createAllProducts(productDTOs);
+        return new ResponseEntity<>(createdProducts, HttpStatus.CREATED);
+    }
+
+    /**
+     * Get all products response entity .
+     *
+     * @return the response entity
+     */
+    @GetMapping
+    public ResponseEntity <List<ProductDTO>> getAllProducts(){
+        logger.info("Fetching all products");
+        List<ProductDTO> productDTOs = productService.getAllProducts();
+        return ResponseEntity.ok(productDTOs);
+    }
+
+    /**
+     * Get product by id response entity.
+     *
+     * @param id the id
+     * @return the response entity
+     */
+    @GetMapping("/{id}")
+    public ResponseEntity<ProductDTO> getProductById(@PathVariable Long id){
+        ProductDTO productDTO = productService.getProductById(id);
+        return ResponseEntity.ok(productDTO);
+    }
+
+    /**
+     * Update product response entity.
+     *
+     * @param id         the id
+     * @param productDTO the product dto
+     * @return the response entity
+     */
+    @PutMapping("/{id}")
+    public ResponseEntity<ProductDTO> updateProduct(@PathVariable Long id, @Validated @RequestBody ProductDTO productDTO){
+        ProductDTO updatedProduct = productService.updateProduct(id, productDTO);
+        return ResponseEntity.ok(updatedProduct);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> deleteProduct(@PathVariable Long id){
+        productService.deleteProduct(id);
+        return new ResponseEntity<>("Produit supprimé",HttpStatus.NO_CONTENT);
+    }
+
+
+    @DeleteMapping
+    public ResponseEntity<String> deleteManyProducts(@RequestBody List<Long> ids){
+        productService.deleteManyProducts(ids);
+        return new ResponseEntity<>("Produits supprimés avec succès",HttpStatus.NO_CONTENT);
     }
 }
